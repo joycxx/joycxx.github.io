@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doggo - Gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Style-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery-style.css">
+
+	<!--Fonts & Icons-->
+	<link href='https://fonts.googleapis.com/css?family=Patua One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Fresca' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--Script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js/gallery-modal.js"></script>
+
+</head>
+<body id="dark">
+	<!--Navigation-->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../index.html">Doggo<b>.</b></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav center-block"> 
+					<li class="active">
+						<a href="../index.html">Home</a>
+					</li>
+					<li class="active">
+						<a href="../resources/gallery.html">Gallery</a>
+					</li>
+					<li class="active">
+						<a href="../resources/about.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="title container-fluid bg-3 text-center">
+		<h3>Gallery</h3>
+		<div class="first-line row">
+			<div class="img col-sm-3">
+				<img src="../resources/images/ico1.jpg" alt="Grumpy the Askal" id="img1" onclick="myFunction()">
+				<div class="middle">
+					<div class="text">Grumpy</div>
+				</div>
+			</div>
+			<div class="img col-sm-3">
+				<img src="../resources/images/ico2.jpg" alt="Chinits the Askal" id="img2" onclick="myFunction2()">
+				<div class="middle">
+					<div class="text">Chinits</div>
+				</div>
+			</div>
+			<div class="img col-sm-3">
+				<img src="../resources/images/ico3.jpg" alt="Sachi the Askal" id="img3" onclick="myFunction3()">
+				<div class="middle">
+					<div class="text">Sachi</div>
+				</div>
+			</div>
+			<div class="img col-sm-3">
+				<img src="../resources/images/ico4.jpg" alt="Shokt the Askal" id="img4" onclick="myFunction4()">
+				<div class="middle">
+					<div class="text">Shokt</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01"></img>
+		<div id="caption"></div>
+	</div>
+
+	<!--Footer-->
+	<footer class="foot container-fluid text-center list-inline">
+		<a href="#" class="social-link"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+		<a href="#" class="social-link"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		<a href="#" class="social-link"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+	</footer>
+
+
+</body>
+</html>

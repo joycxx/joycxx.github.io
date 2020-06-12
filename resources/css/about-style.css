@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+
+#dark{
+    background:#1A1A1D;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    background: transparent !important;
+}
+
+.navbar .navbar-brand b{
+    color: #eb6959;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Patua One';
+    font-size:26px;
+}
+
+.navbar .navbar-brand:hover{
+    color: #eb6959;
+}
+
+.navbar .navbar-header{
+    margin: 10px 0px 0px 165px;
+}
+
+.navbar .collapse{
+    margin: 10px 130px 0 0%;
+    float: right;
+}
+
+.navbar .nav li{
+    margin-right: 50px;
+    font-family: 'Fresca';
+    
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: transparent !important; 
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover{
+    color: #eb6959;
+}
+
+
+/*TITLE*/
+.title {
+    margin-top: 50px;
+}
+
+
+.title h3{
+    font-size: 37px;
+    font-family: 'Patua One';
+    color:white;
+    letter-spacing: 10px;
+    position: relative;
+    display:inline-block;
+}
+
+.title h3:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 47%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 230px;
+    height: 2px;
+    background: #eb6959;
+}
+
+.title .cont .logo b{
+    color: #eb6959;
+}
+
+.title .cont .logo{
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: 'Patua One';
+    font-size: 50px;
+}
+
+
+.title .cont .par{
+    padding: 0 90px 0px 90px;
+    color: #787878;
+}
+
+.title .cont .seperate-par{
+    padding: 0 90px 0px 90px;
+    color: #787878;
+    margin-bottom: 50px;
+}
+
+/*CEO*/
+.ceo{
+    margin: 30px 0px 100px 0px;
+}
+
+
+.ceo .img-ceo{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.ceo h2{
+    color: #fff;
+    font-family: 'Patua One';
+    margin: 0;
+}
+
+.ceo p{
+    font-size: 20px;
+    font-family: 'Fresca';
+    color:white;
+    letter-spacing: 2px;
+}
+
+.ceo span{
+    color: #eb6959;
+}
+
+/*FOOTER*/
+.foot .row a{
+    color: #fff;
+}
+
+.foot .row p{
+    color: #eb6959;
+}
+
+.foot .row span{
+    color: #fff;
+}
+
+.foot .row h4{
+    color: #787878;
+}
+
+.foot{
+    border-style: solid;
+    border-color: #080808;
+    border-width: 100%;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-width: 1px;
+}
